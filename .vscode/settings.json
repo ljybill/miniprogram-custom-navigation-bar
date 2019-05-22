@@ -1,0 +1,7 @@
+{
+    "less.compile": {
+        "compress": false,
+        "sourceMap": false,
+        "outExt": ".wxss"
+    }
+}

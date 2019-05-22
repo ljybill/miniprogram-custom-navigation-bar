@@ -1,0 +1,19 @@
+<view class="nav">
+    <!-- start: 顶部空占位 -->
+    <view style="height: {{barHeight_px}}px;"></view>
+    <!-- end: 顶部空占位 -->
+    <!-- start: 主要展示区域 -->
+    <view class="nav-content" style="padding: {{contentPadding_px}}px 0;">
+        <view class="nav-icon" style="padding: {{contentPadding_px}}px 0;">
+            <view wx:if="{{isShowBack}}" bind:tap="handleBack" hover-class="navigator-hover" class="icon icon-arrow-back"></view>
+            <view wx:if="{{isShowHome}}" bind:tap="handleHome" hover-class="navigator-hover" class="icon icon-home"></view>
+        </view>
+        <view class="nav-title">
+            <view class="nav-title-text">{{title}}</view>
+        </view>
+    </view>
+    <!-- end: 主要展示区域 -->
+</view>
+<!-- start: 占位节点 -->
+<view wx:if="{{defaultHeight}}" style="height: {{contentPadding_px * 2 + 32 + barHeight_px}}px;"></view>
+<!-- end: 占位节点 -->

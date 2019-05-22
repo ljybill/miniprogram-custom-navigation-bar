@@ -1,0 +1,9 @@
+<navigation-bar bind:navBarHeight="getNavBarHeight" title="detail" proxyBack="{{proxyBack}}" bind:navigateBack="handleNavigateBack"></navigation-bar>
+<view class="container" style="padding-top: {{navBarHeight}}px;"></view>
+<view>这是一个二级页面，此页面的返回箭头默认显示</view>
+<view style="height: 30rpx;"></view>
+<view>我们还可以通过proxyBack属性，阻止返回按钮的默认返回事件，然后在当前页面写自己的逻辑</view>
+<view>
+    <switch checked="{{proxyBack}}" bindchange="handleProxyChange" />
+    <text>代理返回事件</text>
+</view>
