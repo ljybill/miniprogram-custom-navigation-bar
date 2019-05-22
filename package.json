@@ -1,6 +1,6 @@
 {
   "name": "miniprogram-custom-navigation-bar",
-  "version": "0.0.2",
+  "version": "0.1.1",
   "description": "小程序自定义顶部导航栏",
   "main": "miniprogram_dist/index.js",
   "license": "MIT",
@@ -32,7 +32,12 @@
     "type": "git",
     "url": "https://github.com/ljybill/miniprogram-custom-navigation-bar.git"
   },
-  "author": "wechat-miniprogram",
+  "author": {
+    "name": "ljybill",
+    "email": "ljybill@aliyun.com",
+    "url": "https://github.com/ljybill"
+  },
+  "keywords": ["自定义组件", "微信小程序", "小程序", "miniprogram"],
   "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.26.3",
