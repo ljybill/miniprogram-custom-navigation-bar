@@ -1,4 +1,3 @@
 Page({
-  onShow() {
-  }
+  onShow() {}
 })

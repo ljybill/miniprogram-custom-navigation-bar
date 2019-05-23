@@ -1,6 +1,6 @@
 {
   "name": "miniprogram-custom-navigation-bar",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "小程序自定义顶部导航栏",
   "main": "miniprogram_dist/index.js",
   "license": "MIT",

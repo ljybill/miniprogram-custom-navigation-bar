@@ -1,12 +1,23 @@
 # miniprogram-custom-navigation-bar(小程序自定义头部导航栏)
 
+## 特性
+
+- 简单配置
+- [ionicons开源图标库](https://ionicons.com/)
+
 ## 安装
 
-在小程序项目中启用 npm，然后`npm i miniprogram-custom-navigation-bar --save`或者执行`yarn add miniprogram-custom-navigation-bar`，微信开发者工具执行`构建npm`，组件就添加到了小程序中，然后引入到用到的页面，如果使用页面比较多，也可以直接放到`app.json`中，
+1. 在小程序项目中启用 npm，
 
-      "usingComponents": {
-        "navigation-bar": "miniprogram-custom-navigation-bar/index"
-      }
+2. 执行`npm i miniprogram-custom-navigation-bar --save`或者执行`yarn add miniprogram-custom-navigation-bar`
+
+3. 微信开发者工具执行`构建npm`，组件就添加到了小程序中
+
+4. 然后引入到用到的页面，如果使用页面比较多，也可以直接放到`app.json`中
+
+        "usingComponents": {
+          "navigation-bar": "miniprogram-custom-navigation-bar/index"
+        }
 
 此时，就可以在wxml中使用`navigation-bar`组件了
 
@@ -26,6 +37,10 @@
 | navBarHeight | Number   | 返回当前组件的高度，在组件初始化时触发                          |          |
 
 > 参数中的值在 `evt.detail` 中
+
+## 实现原理
+
+请移步 [https://github.com/ljybill/miniprogram-utils/tree/master/custom-navigation-bar](https://github.com/ljybill/miniprogram-utils/tree/master/custom-navigation-bar)
 
 ## 贡献
 
